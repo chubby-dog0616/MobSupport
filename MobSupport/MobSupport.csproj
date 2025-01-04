@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\5x8_lcd_hd44780u_a02.ttf" />
+    <None Remove="Images\icon01.png" />
+    <None Remove="Images\icon02.png" />
+    <None Remove="Images\icon03.png" />
+    <None Remove="Images\icon04.png" />
+    <None Remove="Images\icon05.png" />
+    <None Remove="Images\icon06.png" />
+    <None Remove="Images\icon07.png" />
+    <None Remove="Images\icon08.png" />
+    <None Remove="Images\icon09.png" />
+    <None Remove="Images\icon10.png" />
+    <None Remove="Images\icon11.png" />
+    <None Remove="Images\icon12.png" />
+    <None Remove="Images\mobs.png" />
+    <None Remove="Images\navigator.png" />
+    <None Remove="Images\typist.png" />
+    <None Remove="Sounds\timeout.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="ReactiveProperty" Version="9.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\5x8_lcd_hd44780u_a02.ttf" />
+    <Resource Include="Images\icon01.png" />
+    <Resource Include="Images\icon02.png" />
+    <Resource Include="Images\icon03.png" />
+    <Resource Include="Images\icon04.png" />
+    <Resource Include="Images\icon05.png" />
+    <Resource Include="Images\icon06.png" />
+    <Resource Include="Images\icon07.png" />
+    <Resource Include="Images\icon08.png" />
+    <Resource Include="Images\icon09.png" />
+    <Resource Include="Images\icon10.png" />
+    <Resource Include="Images\icon11.png" />
+    <Resource Include="Images\icon12.png" />
+    <Resource Include="Images\mobs.png" />
+    <Resource Include="Images\navigator.png" />
+    <Resource Include="Images\typist.png" />
+    <Resource Include="Sounds\timeout.mp3" />
+  </ItemGroup>
+
+</Project>
